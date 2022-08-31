@@ -1,4 +1,3 @@
-#arr = [16, 18, 20]
 
 def cal(porcentaje, powpos, powneg, pascRow, position):
     porcentajeneg = 1 - porcentaje
@@ -18,7 +17,7 @@ def calWrapper(noOfTrueEvents, noOfTotalEvents):
     if noOfTrueEvents > noOfTotalEvents:
         print("Error. True events is bigger than total events.")
         return
-    n = 5  # number of events
+
     sum = 0
     row = pascRow(noOfTotalEvents)
     for i in range(noOfTrueEvents):  # number of events being true
